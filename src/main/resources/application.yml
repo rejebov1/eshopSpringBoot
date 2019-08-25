@@ -1,0 +1,46 @@
+spring:
+  mvc:
+    static-path-pattern: /resources/**
+    view:
+     prefix: /WEB-INF/view/
+     suffix: .jsp
+  application:
+    name: eshop
+#  thymeleaf:
+#    # Whether to check that the template exists before rendering it.
+#    check-template: true
+#    # Whether to check that the templates location exists.
+#    check-template-location: true
+#    enabled: true
+#    encoding: UTF-8
+#    mode: HTML
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eshop
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connectionTimeout: 30000
+      idleTimeout: 600000
+      maxLifetime: 1800000
+      maximumPoolSize: 20
+  #   initialization-mode: always
+  #    uncomment to init and populate the database
+  #    schema: classpath:db/schema.sql
+  #    data: classpath:db/data.sql
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            #noncontextual lob creation switch-on
+            #https://github.com/spring-projects/spring-boot/issues/12007#issuecomment-369388646
+            non_contextual_creation: true
+        format_sql: true
+        ddl-auto: create-drop
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+server:
+  port: 8085
+#  servlet:
+#    context-path: /

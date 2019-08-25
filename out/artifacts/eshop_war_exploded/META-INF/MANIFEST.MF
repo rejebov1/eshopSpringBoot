@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: eshop
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Данил
+Implementation-Vendor-Id: by.vironit.training.danil
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_191
+Main-Class: ${start-class}
+

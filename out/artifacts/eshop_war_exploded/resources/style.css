@@ -1,0 +1,166 @@
+.header-container {
+    text-align: right;
+    color: white;
+    margin-left: 1200px;
+}
+
+.standart {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.footer-container {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    margin: 2px;
+    background-color: #04B45F;
+    outline: none;
+    font-family: Arial;
+    color: #ffffff;
+    border: 0px;
+    transition-property: background-color;
+    transition: box-shadow 1s;
+}
+
+button:visited {
+
+}
+
+button:hover {
+    background-color: #04B486;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+button:active {
+    background-color: #458316;
+    transition: 0.15s;
+}
+
+
+.box {
+    white-space: nowrap
+}
+
+.box div {
+    width: 90px;
+    display: inline-block;
+    border: 1px solid black
+}
+
+.images {
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+}
+
+.container {
+    margin-bottom: 100px;
+    margin-left: 640px;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+#sns_about {
+
+    background: url('img/about-us.jpg') no-repeat left top;
+    border-top: 1px solid #ebebeb;
+    padding-top: 130px;
+    padding-bottom: -10px;
+    border-bottom: 1px solid #9c9c9c;
+    width: 100%;
+}
+
+#sns_about .title, #sns_conditions .title {
+
+    font-family: Open Sans, sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #9c9c9c;
+}
+
+#sns_about .subtitle, #sns_conditions .subtitle {
+    font-family: Open Sans, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #9c9c9c;
+    padding-bottom: 15px;
+}
+
+#sns_about p {
+    font-family: Open Sans, sans-serif;
+    white-space: pre-line;
+    font-size: 16px;
+    line-height: normal;
+    color: #9c9c9c;
+}
+
+#sns_conditions {
+
+    background: url('img/about-us.jpg') no-repeat right bottom;
+    padding-top: 30px;
+    border-top: 1px solid #ebebeb;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.condition-item {
+    background: rgba(245, 245, 245, 0.85);
+    padding: 20px;
+    margin-bottom: 25px !important;
+}
+
+.condition-item .title2, #product-shop .title2 {
+    color: #57359b;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Open Sans, sans-serif;
+    padding-bottom: 5px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.condition-item .text {
+    font-family: Open Sans, sans-serif;
+    color: #666666;
+    font-size: 13px;
+}
+
+/*registration */
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+/*login */
+
