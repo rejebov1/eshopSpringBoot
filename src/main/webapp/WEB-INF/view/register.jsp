@@ -84,7 +84,7 @@
                 </div>
                 <input id="password" name="password" value="" type="password" placeholder="Enter your password"
                        pattern="[a-zA-Z0-9а-яА-ЯёЁ]{4,}"
-                       title="Password must contain at least 1 letter and minimum 4 characters"
+                       title="Password must contain minimum 4 characters"
                        class="form-control input-md" required="">
             </div> <!-- form-group// -->
             <div class="form-group input-group">
@@ -94,7 +94,7 @@
                 <input id="confirmPassword" name="confirmPassword" value="" type="password"
                        placeholder="Confirm your password"
                        pattern="[a-zA-Z0-9а-яА-ЯёЁ]{4,}"
-                       title="Password must contain at least 1 letter and minimum 4 characters"
+                       title="Password must contain minimum 4 characters"
                        class="form-control input-md" required="">
                 <form:errors path="confirmPassword" cssClass="error"/> <br>
                 <span id="confirmPassword" style="color: red;"></span>

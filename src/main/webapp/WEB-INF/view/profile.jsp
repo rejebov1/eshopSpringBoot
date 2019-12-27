@@ -21,7 +21,7 @@
                        data-target-id="change-password"><i class="glyphicon glyphicon-lock"></i> Change Password</a>
                 </li>
                 <li><a href="${pageContext.request.contextPath}/logout" data-target-id="logout"><i
-                        class="glyphicon glyphicon-log-out"></i> Logout</a></li>
+                        class="glyphicon glyphicon-log-out"></i> Logout</a></li>
             </ul>
         </div>
 

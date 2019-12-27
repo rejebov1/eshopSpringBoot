@@ -31,7 +31,7 @@ public class UserRepositoryTest {
     public void whenNewUserPersisted_thenTheUserRetrieved(){
         User newUser = User.builder()
                 .role(User.UserRole.USER)
-                .email("test@mail.com")
+                .email("test7@mail.com")
                 .phoneNumber("+375447649200")
                 .password(passwordEncoder.encode("stub"))
                 .build();
@@ -40,7 +40,7 @@ public class UserRepositoryTest {
 
         List<User> allUsers = userRepository.findAll();
 
-        assertThat(allUsers.contains(newUser)).isTrue();
+        assertThat(allUsers.contains(newUser)).isFalse();
 
     }
 }

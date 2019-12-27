@@ -3,10 +3,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" isELIgnored="false" %>
 <form:form class="form-horizontal" method="post" modelAttribute="user">
     <fieldset>
-
         <!-- Form Name -->
         <legend>Edit profile</legend>
-
         <!-- Text input-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="fullName">Full name</label>

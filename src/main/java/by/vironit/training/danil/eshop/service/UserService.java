@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 public interface UserService {
+
     @Transactional(readOnly = true)
     User getById(Long id);
 
