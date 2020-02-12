@@ -32,7 +32,7 @@ public class UserRepositoryTest {
         User newUser = User.builder()
                 .role(User.UserRole.USER)
                 .email("test7@mail.com")
-                .phoneNumber("+375447649200")
+                .phoneNumber("375222222222")
                 .password(passwordEncoder.encode("stub"))
                 .build();
 
